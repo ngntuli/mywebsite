@@ -36,7 +36,7 @@ hr {
   margin: 100px auto;
 }
 
-a{
+a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
@@ -61,7 +61,6 @@ a:hover {
   background-color: #66BFBF;
   padding: 50px 0 20px;
   margin-top: 20px;
-  margin-bottom: 0px;
 }
 
 .skill-row {
@@ -90,12 +89,23 @@ a:hover {
   padding: 20px 0;
 }
 
-.top-cloud {
+.top-img {
   position: absolute;
+  width: 100px;
+  height: 100px;
   right: 300px;
-  top: 20px;
+  top: 15px;
 }
-.mountain{
+
+.top-img:hover {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  right: 300px;
+  top: 25px;
+}
+
+.mountain {
   width: auto;
   height: 275px;
 }
@@ -138,8 +148,32 @@ a:hover {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-.profile img{
+
+.profile img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+}
+
+.star-row {
+  display: flex;
+}
+
+.star-rate {
+  margin-left: 25px;
+  background-color: rgba(0, 255, 0, 0.1);
+  justify-content: space-between;
+}
+
+.panal {
+  display: flex;
+  position: fixed;
+  font-size: 2vw;
+  background-color: rgba(255, 0, 0, 0.1);
+  right: 10px;
+  left: 10px;
+}
+
+.a-home {
+  display: inline-flex;
 }
