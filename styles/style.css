@@ -447,7 +447,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .skill h3 {
@@ -550,9 +550,9 @@ li {
 .portfolio-description h6 {
     font-size: 1.5rem;
     text-transform: uppercase;
-    font-weight: 350;
+    font-weight: 300;
     opacity: .6;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
 
 }
 
@@ -741,7 +741,7 @@ li {
 
     70% {
         transform: scale(1);
-        box-shadow: 10 0 0 0px rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     100% {
@@ -759,7 +759,7 @@ li {
 
     70% {
         transform: scale(1);
-        box-shadow: 10 0 0 0px rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
     }
 
     0% {
@@ -1083,7 +1083,7 @@ li {
         display: flex;
         flex-direction: column;
         justify-content: left;
-        align-items: left;
+        align-items: flex-start;
     }
 
     .skill h3 {
